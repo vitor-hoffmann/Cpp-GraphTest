@@ -25,7 +25,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 
 int main() {
     // Inicializar janela usando o módulo `window.h`
-    GLFWwindow* window = initializeWindow(800, 600, "Game Engine");
+    GLFWwindow* window = initializeWindow(800, 600, "Graphics test");
     if (!window) {
         return -1; // Falha ao criar a janela
     }
